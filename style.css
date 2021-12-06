@@ -5,6 +5,10 @@ header{
     padding-bottom: 200px;
     position: relative;
 }
+.bord{
+    border-bottom: solid;
+    border-bottom-color: #ffffff;
+}
 span{
     text-align: start;
     font-size: x-large;
@@ -22,6 +26,7 @@ nav{
     text-align: center;
     margin: 250px;
     margin-right: 150px;
+    
 }
 a{
     margin: 20px;
