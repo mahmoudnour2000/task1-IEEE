@@ -5,6 +5,10 @@ header{
     padding-bottom: 200px;
     position: relative;
 }
+.bord{
+    border-bottom: solid;
+    border-bottom-color: #ffffff;
+}
 span{
     text-align: start;
     font-size: x-large;
@@ -22,6 +26,7 @@ nav{
     text-align: center;
     margin: 250px;
     margin-right: 150px;
+    
 }
 a{
     margin: 20px;
@@ -273,10 +278,66 @@ li{
     display: inline-block;
     font-size: 16px;
 }
+/*cards style */
+
+* {
+    box-sizing: border-box;
+    
+}
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+  
+  /* Float four columns side by side */
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+    
+}
+  
+  /* Remove extra left and right margins, due to padding */
+.row {
+    margin: 0 -5px;
+    padding-top: 45%;
+    
+}
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+      
+      
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+
+    background-color: #f1f1f1;
+    
+  }
+
 
 /*footer style*/
 footer{
-    margin-top: 45%;
+   
     
     
     
